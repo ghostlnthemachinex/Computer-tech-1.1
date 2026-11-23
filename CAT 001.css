@@ -1,0 +1,37 @@
+/* 1. Page background and body text font, size, and color */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Different font for headings */
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1a365d;
+}
+
+/* 3. Styling the navigation bar */
+nav {
+    background-color: #1a365d;
+    padding: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Clean spacing for the main section */
+main {
+    padding: 20px;
+}
